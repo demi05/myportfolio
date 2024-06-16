@@ -3,7 +3,7 @@ import myPic from "../assets/images/my-pic.jpg";
 import { Link } from "@chakra-ui/react";
 const Nav = () => {
   return (
-    <Container maxW={"6xl"} mt={"1em"}>
+    <Container maxW={"6xl"} mt={"1em"} pos={"fixed"} top={0} left={0} right={0}>
     <Flex as={"nav"} alignItems={"center"} justifyContent={"space-between"}>
       <Avatar src={myPic} />
         <Flex gap={"1em"}>
