@@ -1,9 +1,10 @@
+import { Container } from "@chakra-ui/react";
 
 const About = () => {
   return (
-    <div>
+    <Container as={"section"} id="about">
       
-    </div>
+    </Container>
   )
 }
 
