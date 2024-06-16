@@ -5,29 +5,29 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Layout from "./Layout";
 
-const router = 
- createBrowserRouter([
+const router = createBrowserRouter([
   {
     path: "/",
     element: <Layout />,
-    children: 
-    [{
-    path: "/",
-    element: <Home />
+    children: [
+      {
+        path: "/",
+        element: <Home />,
+      },
+      {
+        path: "about",
+        element: <About />,
+      },
+      {
+        path: "projects",
+        element: <Projects />,
+      },
+      {
+        path: "contact",
+        element: <Contact />,
+      },
+    ],
   },
-  {
-    path: "/about",
-    element: <About />
-  },
-  {
-    path: "/",
-    element: <Projects />
-  },
-  {
-    path: "/",
-    element: <Contact />
-  }]}
-])
+]);
 
-
-export default router
+export default router;
