@@ -42,7 +42,7 @@ const Nav = () => {
     ["Contact", "#contact"],
   ];
 
-  const shadow = scrollY > 0 ? "rgba(149, 157, 165, 0.2) 0px 8px 24px" : "none";
+  // const shadow = scrollY > 0 ? "rgba(149, 157, 165, 0.2) 0px 8px 24px" : "none";
 
   return (
     <Box padding={"2em"} >
