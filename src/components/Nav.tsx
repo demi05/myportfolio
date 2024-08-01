@@ -27,7 +27,7 @@ const Nav = () => {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  }, [scrollY]);
 
   const navStyles = {
     alignItems: "center",
