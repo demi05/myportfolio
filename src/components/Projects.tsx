@@ -1,6 +1,7 @@
 import { Box, Container, Flex, Heading, Image, Link, Text } from "@chakra-ui/react";
 import plantsRuS from "../assets/images/plantsRUs.jpg";
 import tipCalculator from "../assets/images/tip calculator.jpg";
+import sunnyside from "../assets/images/sunnyside.png"
 
 const Projects = () => {
   const projectStyles = {
@@ -46,6 +47,13 @@ const Projects = () => {
       link: "https://tipcalculatorappdemi05.netlify.app/",
       description: "A simple app to calculate tips based on the bill amount.",
     },
+    {
+      image: sunnyside,
+      title: "Sunny Side Landing Page",
+      link: "https://sunnysidelandingpage-demi05.netlify.app",
+      description: "A landing page for a fictional brand."
+
+    }
   ];
 
   return (

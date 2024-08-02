@@ -41,7 +41,7 @@ const Home = () => {
             I'm a Front-end Developer specializing in building and occasionally designing exceptional digital experiences. With a strong foundation in React, TypeScript, and modern UI frameworks, I create responsive, user-friendly interfaces that enhance usability and engagement. My experience extends to collaborating with cross-functional teams, integrating RESTful APIs, and optimizing performance for seamless user experiences across devices.
 
             </Text>
-            <Button w={"30%"} backgroundColor={"transparent"}>
+            <Button w={"30%"} backgroundColor={"transparent"} border={"1px solid teal"} color={"teal"}>
               <Link href="#projects" _hover={{ textDecoration: "none" }}>
                 View Projects
               </Link>
