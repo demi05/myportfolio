@@ -40,7 +40,7 @@ const Contact = () => {
 
         {/* Downloadable Resume */}
         <Box textAlign={"center"} mt={"2em"}>
-          <Link href="/resume.pdf" isExternal>
+          <Link href="https://drive.google.com/drive/folders/1GuCD0nNECfUTM92zynLHmWo03HXQuhrL?usp=sharing" isExternal>
             <Button variant={"outline"} colorScheme={"teal"}>Download My Resume</Button>
           </Link>
         </Box>

@@ -20,7 +20,7 @@ const Home = () => {
             typeSpeed: 100,
             showCursor: false,
           });
-        }, 500); // Delay before typing the next text
+        }, 500); 
       },
     });
 
