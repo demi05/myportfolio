@@ -2,6 +2,7 @@ import { Box, Container, Flex, Heading, Image, Link, Text } from "@chakra-ui/rea
 import plantsRuS from "../assets/images/plantsRUs.jpg";
 import tipCalculator from "../assets/images/tip calculator.jpg";
 import sunnyside from "../assets/images/sunnyside.png"
+import timbuCloudShop from "../assets/images/timbu cloud shop.png"
 
 const Projects = () => {
   const projectStyles = {
@@ -31,7 +32,7 @@ const Projects = () => {
     _hover: {
       opacity: 1,
     },
-    p: "1em", // Padding for the overlay
+    p: "1em", 
   };
 
   const projects = [
@@ -52,7 +53,12 @@ const Projects = () => {
       title: "Sunny Side Landing Page",
       link: "https://sunnysidelandingpage-demi05.netlify.app",
       description: "A landing page for a fictional brand."
-
+    },
+    {
+      image: timbuCloudShop,
+      title: "Timbu Cloud Shop",
+      link: "https://timbu-cloud-shop-demi05.netlify.app",
+      description: "A fictional e-commerce app."
     }
   ];
 

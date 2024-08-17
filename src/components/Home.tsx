@@ -16,7 +16,7 @@ const Home = () => {
       onComplete: () => {
         setTimeout(() => {
           new Typed(roleElement.current!, {
-            strings: ["I'm a Frontend Developer"],
+            strings: ["Front-end Developer"],
             typeSpeed: 100,
             showCursor: false,
           });
@@ -36,7 +36,7 @@ const Home = () => {
           <Flex flexDirection={"column"} gap={"1em"}>
             <Text>Hi, my name is</Text>
             <Heading fontSize={"3rem"} ref={nameElement} color={"teal"}></Heading>
-            <Text fontSize={"1.5rem"} ref={roleElement}></Text>
+            <Text fontSize={"1.5rem"} fontWeight={500} ref={roleElement}></Text>
             <Text>
             I'm a Front-end Developer specializing in building and occasionally designing exceptional digital experiences. With a strong foundation in React, TypeScript, and modern UI frameworks, I create responsive, user-friendly interfaces that enhance usability and engagement. My experience extends to collaborating with cross-functional teams, integrating RESTful APIs, and optimizing performance for seamless user experiences across devices.
 
