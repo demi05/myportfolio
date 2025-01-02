@@ -1,8 +1,9 @@
 import { Box, Container, Flex, Heading, Image, Link, Text } from "@chakra-ui/react";
-import plantsRuS from "../assets/images/plantsRUs.jpg";
+import aiesecMembership from "../assets/images/AIESEC MEMBERSHIP.png"
 import tipCalculator from "../assets/images/tip calculator.jpg";
-import sunnyside from "../assets/images/sunnyside.png"
 import timbuCloudShop from "../assets/images/timbu cloud shop.png"
+import introSection from "../assets/images/intro section.png"
+import amdorAnalytics from "../assets/images/amdor analytics.png"
 
 const Projects = () => {
   const projectStyles = {
@@ -37,10 +38,22 @@ const Projects = () => {
 
   const projects = [
     {
-      image: plantsRuS,
-      title: "Plants R Us",
-      link: "https://plantsrus.netlify.app/",
-      description: "A landing page for a fictional plant shop.",
+      image: aiesecMembership,
+      title: "AIESEC in Nigeria",
+      link: "https://aiesec.ng/membership",
+      description: "AIESEC in Nigeria membership site."
+    },
+    {
+      image: amdorAnalytics,
+      title: "Amdor Analytics",
+      link: "https://amdoranalytics.com",
+      description: "A website for a tech company."
+    },
+    {
+      image: timbuCloudShop,
+      title: "Timbu Cloud Shop",
+      link: "https://timbu-cloud-shop-demi05.netlify.app",
+      description: "A fictional e-commerce app."
     },
     {
       image: tipCalculator,
@@ -48,17 +61,10 @@ const Projects = () => {
       link: "https://tipcalculatorappdemi05.netlify.app/",
       description: "A simple app to calculate tips based on the bill amount.",
     },
-    {
-      image: sunnyside,
-      title: "Sunny Side Landing Page",
-      link: "https://sunnysidelandingpage-demi05.netlify.app",
-      description: "A landing page for a fictional brand."
-    },
-    {
-      image: timbuCloudShop,
-      title: "Timbu Cloud Shop",
-      link: "https://timbu-cloud-shop-demi05.netlify.app",
-      description: "A fictional e-commerce app."
+    {image: introSection,
+      title: "Intro Section Landing Page",
+      link: "https://intro-section-dropdown-demi05.netlify.app",
+      description: "A landing page"
     }
   ];
 
