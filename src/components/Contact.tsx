@@ -29,13 +29,15 @@ const Contact = () => {
 
         {/* Contact Form */}
         <Box w={"100%"} maxW={"600px"}>
+          <form action="https://formsubmit.co/demiladeleshi@gmail.com" method="POST">
           <SimpleGrid columns={1} spacing={"1em"}>
-            <Input placeholder="Name" />
-            <Input placeholder="Email" type="email" />
-            <Input placeholder="Subject" />
-            <Textarea placeholder="Your Message" />
+            <Input placeholder="Name" name="name" />
+            <Input placeholder="Email" type="email" name="email" />
+            <Input placeholder="Subject" name="subject" />
+            <Textarea placeholder="Your Message" name="message" />
             <Button colorScheme={"teal"} w={"100%"}>Send Message</Button>
           </SimpleGrid>
+          </form>
         </Box>
 
         {/* Downloadable Resume */}

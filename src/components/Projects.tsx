@@ -1,8 +1,8 @@
 import { Box, Container, Flex, Heading, Image, Link, Text } from "@chakra-ui/react";
 import aiesecMembership from "../assets/images/AIESEC MEMBERSHIP.png"
-import tipCalculator from "../assets/images/tip calculator.jpg";
+import gmw from "../assets/images/gmw.png"
+import nv from "../assets/images/nv.png"
 import timbuCloudShop from "../assets/images/timbu cloud shop.png"
-import introSection from "../assets/images/intro section.png"
 import amdorAnalytics from "../assets/images/amdor analytics.png"
 
 const Projects = () => {
@@ -38,6 +38,18 @@ const Projects = () => {
 
   const projects = [
     {
+      image: gmw,
+      title: "AIESEC in Nigeria Global Money Week",
+      link: "https://aiesec.ng/gmw",
+      description: "AIESEC in Nigeria Global Money Week Website",
+    },
+    {
+      image: nv,
+      title: "AIESEC in Nigeria National Volunteer",
+      link: "https://aiesec.ng/nv",
+      description: "AIESEC in Nigeria Global Money Week Website",
+    },
+    {
       image: aiesecMembership,
       title: "AIESEC in Nigeria",
       link: "https://aiesec.ng/membership",
@@ -54,17 +66,6 @@ const Projects = () => {
       title: "Timbu Cloud Shop",
       link: "https://timbu-cloud-shop-demi05.netlify.app",
       description: "A fictional e-commerce app."
-    },
-    {
-      image: tipCalculator,
-      title: "Tip Calculator",
-      link: "https://tipcalculatorappdemi05.netlify.app/",
-      description: "A simple app to calculate tips based on the bill amount.",
-    },
-    {image: introSection,
-      title: "Intro Section Landing Page",
-      link: "https://intro-section-dropdown-demi05.netlify.app",
-      description: "A landing page"
     }
   ];
 

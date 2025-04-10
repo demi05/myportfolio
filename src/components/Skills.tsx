@@ -1,6 +1,6 @@
 import { FaHtml5, FaReact, FaSass, FaGithub } from "react-icons/fa";
 import { IoLogoCss3, IoLogoJavascript } from "react-icons/io5";
-import { RiTailwindCssFill } from "react-icons/ri";
+import { RiTailwindCssFill, RiNextjsFill } from "react-icons/ri";
 import { SiTypescript, SiChakraui } from "react-icons/si";
 import { Box, Container, Flex, Heading, Text } from "@chakra-ui/react";
 
@@ -13,6 +13,7 @@ const Skills = () => {
     { name: "Sass", icon: <FaSass color="rgb(255, 0, 255)" fontSize={"6rem"} /> },
     { name: "ReactJs", icon: <FaReact color="rgb(0, 255, 255)" fontSize={"6rem"} /> },
     { name: "TypeScript", icon: <SiTypescript color="rgb(49, 120, 198)" fontSize={"6rem"} /> },
+    {name: "Next JS", icon: <RiNextjsFill color="rgb(0, 0, 0)" fontSize={"6rem"} /> },
     { name: "Chakra UI", icon: <SiChakraui color="rgb(0, 255, 255)" fontSize={"6rem"} /> },
     { name: "GitHub", icon: <FaGithub fontSize={"6rem"} /> },
   ];
