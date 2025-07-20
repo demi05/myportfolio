@@ -2,7 +2,6 @@ import { Box, Container, Flex, Heading, Image, Link, Text } from "@chakra-ui/rea
 import aiesecMembership from "../assets/images/AIESEC MEMBERSHIP.png"
 import gmw from "../assets/images/gmw.png"
 import nv from "../assets/images/nv.png"
-import timbuCloudShop from "../assets/images/timbu cloud shop.png"
 import amdorAnalytics from "../assets/images/amdor analytics.png"
 import ncAkure from "../assets/images/ncakure.png"
 
