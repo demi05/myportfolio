@@ -4,6 +4,7 @@ import gmw from "../assets/images/gmw.png"
 import nv from "../assets/images/nv.png"
 import timbuCloudShop from "../assets/images/timbu cloud shop.png"
 import amdorAnalytics from "../assets/images/amdor analytics.png"
+import ncAkure from "../assets/images/ncakure.png"
 
 const Projects = () => {
   const projectStyles = {
@@ -38,6 +39,12 @@ const Projects = () => {
 
   const projects = [
     {
+      image: ncAkure,
+      title: "NC Akure Website",
+      link: "https://ncakure25.netlify.app/",
+      description: "National Conference Akure, AIESEC in Nigeria, 2025.",
+    },
+    {
       image: gmw,
       title: "AIESEC in Nigeria Global Money Week",
       link: "https://aiesec.ng/gmw",
@@ -61,12 +68,12 @@ const Projects = () => {
       link: "https://amdoranalytics.com",
       description: "A website for a tech company."
     },
-    {
-      image: timbuCloudShop,
-      title: "Timbu Cloud Shop",
-      link: "https://timbu-cloud-shop-demi05.netlify.app",
-      description: "A fictional e-commerce app."
-    }
+    // {
+    //   image: timbuCloudShop,
+    //   title: "Timbu Cloud Shop",
+    //   link: "https://timbu-cloud-shop-demi05.netlify.app",
+    //   description: "A fictional e-commerce app."
+    // }
   ];
 
   return (

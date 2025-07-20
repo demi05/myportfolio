@@ -21,7 +21,6 @@ const Nav = () => {
   useEffect(() => {
     const handleScroll = () => {
       setScrollY(window.scrollY);
-      console.log(scrollY)
     };
     window.addEventListener("scroll", handleScroll);
     return () => {
